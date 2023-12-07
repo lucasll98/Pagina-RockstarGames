@@ -12,12 +12,12 @@ function NavBar() {
         <div className='iconoR'></div>
 
         <div className="contenedorItemsNav1">
-            <a href="">Juegos</a>
-            <a href="">Newswire</a>
-            <a href="">Videos</a>
-            <a href="">Descargas</a>
-            <a href="">Store</a>
-            <a href="">Asistencia técnica</a>
+            <a href="" className='itemNav'>Juegos</a>
+            <a href="" className='itemNav'>Newswire</a>
+            <a href="" className='itemNav'>Videos</a>
+            <a href="" className='itemNav'>Descargas</a>
+            <a href="" className='itemNav'>Store</a>
+            <a href="" className='itemNav'>Asistencia técnica</a>
         </div>
 
         <div className="contenedorItemsNav2">
