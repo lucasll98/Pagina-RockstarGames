@@ -39,6 +39,7 @@ nav{
     align-items: center;
     justify-content: space-around;
     border-bottom: #272727 solid 0.5px;
+    z-index: 10;
 }
 
 .itemNav{
@@ -47,6 +48,7 @@ nav{
     padding:20px;
     padding-top: 29px;
     padding-bottom: 29px;
+    border-bottom: solid 2px transparent;
 
 }
 
@@ -86,7 +88,7 @@ div{
 }
 
 .launcher:hover{
-    background:#fcb017d6;
+    background:#ffb623d6;
 }
 
 .iconoR{
@@ -147,6 +149,7 @@ div{
     background-size: cover;
     background-position: center center;
     cursor: pointer;
+    
     transition: all 0.6s;
 }
 
@@ -255,3 +258,121 @@ footer{
     color: #FCAF17;
     transition: all 0.6s;
 }
+
+.contenedorNews{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background: #0B0B0B;
+
+}
+
+.subcontenedorNews{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: #0B0B0B;
+    width: 89%;
+    height: auto;
+    justify-content: space-between;
+
+}
+
+
+.news{
+    height: 600px;
+    width: 31%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    background: black;
+    border-radius: 6px;
+    border: #272727 solid 0.5px;
+    cursor: pointer;
+    
+}
+
+
+.newsImagen{
+    align-self: flex-start;
+    justify-self: flex-start;
+    width: 100%;
+    height: 60%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.contNewsItems{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    height: auto;
+    margin-top: 40px;
+
+}
+
+.newsSubt{
+    font-size: 22px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.p1,.p2{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.p2{
+    color: grey;
+    margin-left: 20px;
+    
+}
+
+.contP{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.tituloNewswire{
+    font-size: 32px;
+    align-self: flex-start;
+    margin-top: 60px;
+    margin-bottom: 28px;
+    margin-left: 72px;
+}
+
+.viewMore{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    border-bottom: 3.5px solid #FCAF17;
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.viewMore:hover{
+    color: #272727;
+    background: #FCAF17;
+    padding: 5px;
+    border-radius: 5px;
+    bottom: 0;
+    transition: all 0.5s;
+}
+
+
+.newsImagen:hover{
+    transition: all 0.6s;
+    opacity: 70%;
+}
+
+
+
