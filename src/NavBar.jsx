@@ -1,6 +1,9 @@
 import React from 'react'
 import { FiSearch } from "react-icons/fi";
 import { FiUser } from "react-icons/fi";
+import { FaChevronDown } from "react-icons/fa";
+import { FaExternalLinkAlt } from "react-icons/fa";
+
 
 function NavBar() {
   return (<>
@@ -12,12 +15,12 @@ function NavBar() {
         <div className='iconoR'></div>
 
         <div className="contenedorItemsNav1">
-            <a href="" className='itemNav'>Juegos</a>
+            <a href="" className='itemNav'>Juegos <FaChevronDown className='iconoNav'/></a>
             <a href="" className='itemNav'>Newswire</a>
             <a href="" className='itemNav'>Videos</a>
             <a href="" className='itemNav'>Descargas</a>
-            <a href="" className='itemNav'>Store</a>
-            <a href="" className='itemNav'>Asistencia técnica</a>
+            <a href="" className='itemNav'>Store <FaExternalLinkAlt className='iconoNav'/></a>
+            <a href="" className='itemNav'>Asistencia técnica <FaExternalLinkAlt className='iconoNav'/></a>
         </div>
 
         <div className="contenedorItemsNav2">

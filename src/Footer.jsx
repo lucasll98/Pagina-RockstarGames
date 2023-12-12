@@ -4,6 +4,11 @@ import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
+import { TbWorld } from "react-icons/tb";
+import { FaChevronDown } from "react-icons/fa";
+import { FaExternalLinkAlt } from "react-icons/fa";
+
+
 
 
 function Footer() {
@@ -12,10 +17,10 @@ function Footer() {
         <div className="contenedorFooter1">
             <div>
                 <a href="" className='itemFooter'>Contact</a>
-                <a href="" className='itemFooter'>Empleo</a>
-                <a href="" className='itemFooter'>Suscríbete</a>
+                <a href="" className='itemFooter'>Empleo <FaExternalLinkAlt/></a>
+                <a href="" className='itemFooter'>Suscríbete <FaExternalLinkAlt/></a>
             </div>
-            <div><strong>Selecciona un idioma</strong></div>
+            <div className='idiomaDiv'><TbWorld className='iconoWorld'/><strong>Selecciona un idioma</strong><FaChevronDown className='iconoAbajo'/></div>
         </div>
 
         <div className="contenedorFooter2">
