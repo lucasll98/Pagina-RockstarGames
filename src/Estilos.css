@@ -410,3 +410,64 @@ footer{
     font-size: 10px;
     margin-left: 2px;
 }
+
+.navJuegos{
+    position: relative;
+}
+.contenedorDropdown{
+    margin-top: 34px;
+    width: 1350px;
+    height: 300px;
+    left: -32vh;
+    display: none;
+    position: absolute;
+    transition: all 1s;
+    border-bottom: #272727 solid 0.5px;
+}
+
+
+
+.navJuegos:hover  .contenedorDropdown{
+    display: block;
+}
+
+
+.subContDrop{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 89%;
+    
+}
+
+.tituloDrop{
+    font-size: 28px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.subtDrop{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+
+.jueguitos{
+    width: 18%;
+    height: 260px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 60px;
+    border: #272727 solid 0.5px;
+}
+
+.jueguitos:hover{
+    opacity: 70%;
+    transition: all 0.5s;
+}
+

@@ -3,6 +3,8 @@ import { FiSearch } from "react-icons/fi";
 import { FiUser } from "react-icons/fi";
 import { FaChevronDown } from "react-icons/fa";
 import { FaExternalLinkAlt } from "react-icons/fa";
+import DropDownNavMenu from './DropDownNavMenu.jsx'
+
 
 
 function NavBar() {
@@ -15,7 +17,7 @@ function NavBar() {
         <div className='iconoR'></div>
 
         <div className="contenedorItemsNav1">
-            <a href="" className='itemNav'>Juegos <FaChevronDown className='iconoNav'/></a>
+            <a href="" className='itemNav navJuegos'>Juegos <FaChevronDown className='iconoNav'/><DropDownNavMenu/></a>
             <a href="" className='itemNav'>Newswire</a>
             <a href="" className='itemNav'>Videos</a>
             <a href="" className='itemNav'>Descargas</a>
@@ -29,6 +31,8 @@ function NavBar() {
             <div className='contenedorUser'><FiUser className='icono2' /></div>
         </div>
     </nav>
+
+    
     </>
   )
 }
